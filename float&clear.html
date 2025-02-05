@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>float and clear</title>
+        <style>
+            .container{
+                width: 900px;
+                border: solid rgb(215, 123, 154);
+                margin: 33px;
+            }
+            .item{
+                border: 4px solid rgb(126, 96, 154);
+                margin: 12px 5px;
+                padding: 12px 4px;
+            }
+            #fruits{
+                float: right;
+                width: 43%;
+            }
+            #computer{
+                float: left;
+                width: 43%;
+            }
+            #books{
+                clear: left;
+                width: 90%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="fruits" class="item">
+                <h3>Fruits</h3>
+                <p id="fruitstore" class="store">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, provident labore. Fugiat magnam deserunt, ipsum eum amet necessitatibus similique quam soluta deleniti incidunt.</p>
+            </div>
+            <div id="computer" class="item">
+                <h3>computer</h3>
+                <p id="computerstore" class="store">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt iure laborum placeat molestiae! Quibusdam alias earum officia ab. Repellat laudantium adipisci similique deserunt!</p>
+            </div>
+            <div id="books" class="item">
+                <h3>books</h3>
+                <p id="bookstore" class="store">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt iure laborum placeat molestiae! Quibusdam alias earum officia ab. Repellat laudantium adipisci similique deserunt!</p>
+            </div>
+        </div>
+    </body>
+</html>
