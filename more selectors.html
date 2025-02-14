@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>more css selectors</title>
+    </head>
+    <style>
+        h1{
+            text-align: center;
+            font-weight: bold ;
+            color: black;
+            background-color: aqua;
+        }
+        /*this makes color to the 'p' in list  */
+        div li p{
+            color: chocolate;
+            background-color: cadetblue;
+            font-weight: bold;
+        }
+        /*this makes color to the main i.e in main div 'p'  */
+        div > p{
+            color: rgb(156, 122, 181);
+            background-color: rgb(38, 34, 252);
+            font-weight: bold;
+        }
+        /*this makes color to the siblings of div class i.e next to </div> lines ,css applied */
+        div + p{
+            color: rgb(229, 29, 169);
+            background-color: cadetblue;
+            font-weight: bold;
+        }
+    </style>
+    <body>
+        <h1>There are more selectors</h1>
+        <div class="container">
+            <div class="row">
+                <ul>
+                    <li class="item"><p>This is a another apragraph inside li</p></li>
+                    <li>Thia will not be effected</li>
+                </ul>
+                <P>This is a paragraph</P>
+            </div>
+            <P>This is another paragraph</P>
+        </div>
+        <P>This is outermost paragraph</P>
+    </body>
+</html>
