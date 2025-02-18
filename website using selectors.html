@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced selectors</title>
+        <style>
+
+            
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                color: aliceblue;
+                background: url('https://plus.unsplash.com/premium_photo-1739844476608-6d4e22c38b68?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            }
+            .class{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                display: flex;
+            }
+            li{
+                list-style: none;
+                padding: 34px 20px;
+            }
+            section{
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            h3{
+                font-size: 4rem;
+            }
+            p{
+                text-align: center;
+            }
+            /*section::before{
+                content: "This is content"
+            }*/
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="class">
+                    <li class="item">Home</li>
+                    <li class="item">About</li>
+                    <li class="item">Services</li>
+                    <li class="item">Contact us</li>
+                </ul>
+            </nav>
+            <section>
+                <h3>Welcome to Coding world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magni ullam quasi natus? Earum est quia unde, debitis nulla nemo at ad porro?</p>
+            </section>
+        </header>
+    </body>
+</html>
