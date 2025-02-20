@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Variables and Custom properties</title>
+        <style>
+            :root{
+                --primary-color: rgb(233, 204, 209);
+                --danger-color: red
+
+            }
+            .box{
+                width: 200px;
+                height: 200px;
+                background-color: var(--primary-color);
+                border: 2px solid var(--danger-color);
+                margin: 2px 10px;
+                box-shadow: 3px 8px;
+            }
+            .container{
+                display: flex;
+                background-color: aquamarine;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" id="id-1"></div>
+            <div class="box" id="id-2"></div>
+            <div class="box" id="id-3"></div>
+        </div>
+    </body>
+</html>
