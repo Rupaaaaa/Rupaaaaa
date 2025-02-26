@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> css grid</title>
+        <style>
+            .container{
+                display: grid;
+                /* grid-template-columns: 300px auto 100px; */
+                /* grid-template-columns: 1fr 1fr; fr-- means part of the page or field,1fr--one part of page (fraction) */
+                grid-template-columns: 1fr 1fr;
+            }
+            .cls{
+                height: 100px;
+                width: 100px;
+                background-color: rgb(151, 88, 183);
+                border: 2px solid purple;
+                margin: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="cls">Thhis is item-1</div>
+            <div class="cls">Thhis is item-2</div>
+            <div class="cls">Thhis is item-3</div>
+            <div class="cls">Thhis is item-4</div>
+            <div class="cls">Thhis is item-5</div>
+            <div class="cls">Thhis is item-6</div>
+        </div>
+        </div>
+    </body>
+</html>
